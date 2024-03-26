@@ -1,4 +1,4 @@
-#NAME
+#Serhat Seflek serhat@uchicago.edu
 
 #### fix the following errors!
 #### do not use any web-based resources to figure them out
@@ -19,7 +19,8 @@ print(my_string.upper())
 
 #4
 z = ['a', 'b', 'c']
-z[2] = 'd'
+z +=  'd'
+print(z)
 
 #5 run all these lines at once. why does the x not display 10, 
 #followed by the 200?  Fix it so it does.
@@ -60,6 +61,6 @@ print(animals_list)
 #11 separate the words in this string into entries in a list, with only lower-case
 #letters, e.g. ['i', 'love', 'how', ...
 my_sent = 'All that snow we had this winter sure was fun!'
-my_sent_lower = my_sent.lower().split()
-print(list(my_sent_lower))
+my_sent_lower_list = my_sent.lower().split()
+print(my_sent_lower_list)
 
