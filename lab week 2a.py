@@ -24,19 +24,22 @@ z[2] = 'd'
 #5 run all these lines at once. why does the x not display 10, 
 #followed by the 200?  Fix it so it does.
 x = 10
-x
+print(x)
 y = 20
 print(x * y)
 
 #6
-color = 'My favorite color is {}, what is yours?' % blue
+blue = "blue"
+color = 'My favorite color is %s, what is yours?' % blue
 print(color)
 
 #7
+yellow = "yellow"
 color = 'My favorite color is {}, what is yours?'.format(yellow)
 print(color)
 
 #8
+red = "red"
 color = f'My favorite color is {red}, what is yours?'
 print(color)
 
@@ -44,10 +47,19 @@ print(color)
 
 #9 make the entries in this list unique
 schools = ['harris', 'booth', 'crown', 'harris', 'harris']
+unique_schools = set(schools)
+print(unique_schools)
+
 
 #10 change the 'dog' entry to 'cat'
 animals = tuple(['bird', 'horse', 'dog', 'fish'])
+animals_list = list(animals)
+animals_list[2]="cat"
+print(animals_list)
 
 #11 separate the words in this string into entries in a list, with only lower-case
 #letters, e.g. ['i', 'love', 'how', ...
 my_sent = 'All that snow we had this winter sure was fun!'
+my_sent_lower = my_sent.lower().split()
+print(list(my_sent_lower))
+
