@@ -1,4 +1,4 @@
-#Serhat Seflek serhat@uchicago.edu
+#SERHAT SEFLEK
 
 #### fix the following errors!
 #### do not use any web-based resources to figure them out
